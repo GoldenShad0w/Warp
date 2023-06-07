@@ -1,0 +1,4 @@
+name: Warp
+version: '${project.version}'
+main: goldenshadow.warp.Warp
+api-version: 1.19
