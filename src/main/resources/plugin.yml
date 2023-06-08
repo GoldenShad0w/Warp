@@ -2,3 +2,21 @@ name: Warp
 version: '${project.version}'
 main: goldenshadow.warp.Warp
 api-version: 1.19
+author: _GoldenShadow
+description: A very simple warp plugin
+depend:
+  - 'Multiverse-Core'
+commands:
+  warp:
+    description: Used to teleport to a warp location
+    permission: Warp.use
+  create_warp:
+    description: Used to create a new warp location
+    permission: Warp.create
+  delete_warp:
+    description: Used to delete a new warp location
+    permission: Warp.delete
+  rename_warp:
+    description: Used to rename an existing warp
+    permission: Warp.rename
+
